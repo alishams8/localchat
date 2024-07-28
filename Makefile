@@ -13,7 +13,7 @@ OLLAMA_WINDOWS_FILE=Ollama-windows.zip
 # Detect the operating system
 UNAME_S := $(shell uname -s)
 
-all: download_ollama run_ollama run_lama
+all: download_ollama run_ollama run_lama run_frontend
 
 download_ollama:
 ifeq ($(UNAME_S),Darwin)
